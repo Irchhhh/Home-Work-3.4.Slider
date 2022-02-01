@@ -11,6 +11,8 @@
 		8CBC2ABD27A7FF1900428DDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBC2ABC27A7FF1900428DDE /* ContentView.swift */; };
 		8CBC2ABF27A7FF2000428DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CBC2ABE27A7FF2000428DDE /* Assets.xcassets */; };
 		8CBC2AC227A7FF2000428DDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CBC2AC127A7FF2000428DDE /* Preview Assets.xcassets */; };
+		8CBC2AC927A7FFA500428DDE /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBC2AC827A7FFA500428DDE /* SliderView.swift */; };
+		8CBC2ACB27A8147000428DDE /* ButtonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBC2ACA27A8146F00428DDE /* ButtonViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8CBC2ABC27A7FF1900428DDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8CBC2ABE27A7FF2000428DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CBC2AC127A7FF2000428DDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CBC2AC827A7FFA500428DDE /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		8CBC2ACA27A8146F00428DDE /* ButtonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				8CBC2ABA27A7FF1900428DDE /* Home_Work_3_4_SliderApp.swift */,
 				8CBC2ABC27A7FF1900428DDE /* ContentView.swift */,
+				8CBC2ACA27A8146F00428DDE /* ButtonViews.swift */,
+				8CBC2AC827A7FFA500428DDE /* SliderView.swift */,
 				8CBC2ABE27A7FF2000428DDE /* Assets.xcassets */,
 				8CBC2AC027A7FF2000428DDE /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CBC2AC927A7FFA500428DDE /* SliderView.swift in Sources */,
 				8CBC2ABD27A7FF1900428DDE /* ContentView.swift in Sources */,
+				8CBC2ACB27A8147000428DDE /* ButtonViews.swift in Sources */,
 				8CBC2ABB27A7FF1900428DDE /* Home_Work_3_4_SliderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct ButtonViews: View {
+    let title: String
+    let action: () -> Void
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: action) {
+            Text(title)
+        }
     }
 }
-
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        ButtonViews()
+        ButtonViews(title: "1", action: {})
     }
 }
